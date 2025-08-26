@@ -1,5 +1,5 @@
 def find_max(input_array):
-    # Handle the edge case of an empty array
+    # Handle the edge case of empty array
     # Return None if the array is empty to avoid errors
     if not input_array:
         return None
@@ -31,3 +31,4 @@ def find_max_simple(input_array):
     # max() efficiently finds the maximum value in any iterable
     # it uses optimized C implementation under the hood
     return max(input_array)
+
