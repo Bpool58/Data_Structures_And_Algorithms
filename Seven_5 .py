@@ -1,4 +1,4 @@
-# Function to maintain max heap property by moving a node down the heap. until it's in the correct position
+# Function to maintain max heap property by moving a node. down the heap. until it's in the correct position
 def max_heap_percolate_down(node_index, heap_list, list_size):
     # Calculate the index of the left child using the heap property formula
     # (for any node at index i, left child is at 2i + 1)
