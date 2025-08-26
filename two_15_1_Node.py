@@ -3,4 +3,3 @@ class Node:
         self.data = initial_data
         self.next = None
         self.prev = None
-#####
