@@ -55,7 +55,7 @@ class LinkedList:
 
     def insert_after(self, current_node, new_node):
         """
-        Insert a new node after a given node in the list.
+        Insert a new node after a given node in the list..
         
         Time Complexity: O(1) - constant time operation
         

@@ -40,5 +40,5 @@ class LinkedList:
         elif current_node.next != None:
             succeeding_node = current_node.next.next
             current_node.next = succeeding_node
-            if succeeding_node == None:  # Remove tail
+            if succeeding_node == None:  # Remove tail.
                 self.tail = current_node

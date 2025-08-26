@@ -1,4 +1,4 @@
-# Binary max heap percolate down.
+# Binary max heap percolate down..
 def max_heap_percolate_down(node_index, heap_list, list_size):
     child_index = 2 * node_index + 1
     value = heap_list[node_index]

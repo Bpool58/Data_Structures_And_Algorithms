@@ -1,9 +1,13 @@
-# Import required Node and LinkedList classes.
+# Import required Node and LinkedList classes..
 from two_11_Node import Node
 from two_11_LinkedList import LinkedList
 
+
 # Create a new empty linked list
 num_list = LinkedList()
+# Import required Node and LinkedList classes
+from two_11_Node import Node
+from two_11_LinkedList import LinkedList
 
 # Create individual nodes with their data values
 node_a = Node(14)    # Create node with value 14

@@ -1,5 +1,5 @@
-from LinkedList import LinkedList
-from Node import Node
+from two_15_1_LinkedList import LinkedList
+from two_15_1_Node import Node
 
 num_list = LinkedList()
 node_a = Node(72)
