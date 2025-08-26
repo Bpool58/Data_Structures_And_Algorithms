@@ -1,6 +1,6 @@
-# Import required Node and LinkedList classes
-from Node import Node
-from LinkedList import LinkedList
+# Import required Node and LinkedList classes.
+from two_11_Node import Node
+from two_11_LinkedList import LinkedList
 
 # Create a new empty linked list
 num_list = LinkedList()
