@@ -18,7 +18,7 @@ class LinkedList:
         else:
             new_node.next = self.head
             self.head = new_node
-
+#
     def insert_after(self, current_node, new_node):
         if self.head == None:
             self.head = new_node
