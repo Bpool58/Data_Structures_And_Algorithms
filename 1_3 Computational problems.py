@@ -28,7 +28,7 @@ def find_max_simple(input_array):
     if not input_array:
         return None
     
-    # max() efficiently finds the maximum value in any iterable
+    # max() efficiently finds the maximum value in any iterable.
     # it uses optimized C implementation under the hood
     return max(input_array)
 
