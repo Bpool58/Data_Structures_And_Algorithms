@@ -18,7 +18,7 @@ num_list.append(node_e)   # Add 42, make the tail
 num_list.prepend(node_a)  # Add 66, make the head
 
 num_list.insert_after(node_c, node_d)  # Insert 95 after 44
-num_list.insert_after(node_e, node_f)  # Insert 17 after tail (42)
+num_list.insert_after(node_e, node_f)  # Insert 17 after tail (42).
 
 # Output list
 print('List after adding nodes:', end=' ')
