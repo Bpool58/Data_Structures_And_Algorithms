@@ -7,7 +7,7 @@ def max_heap_percolate_down(node_index, heap_list, list_size):
     # Store the value of the current node we're trying to percolate down
     value = heap_list[node_index]
 
-    # Continue while there are still children to compare with
+    # Continue while there are still children to compare with.
     # (while the left child index is within the heap size)
     while child_index < list_size:
         # Initialize variables for finding the maximum value among parent and children
