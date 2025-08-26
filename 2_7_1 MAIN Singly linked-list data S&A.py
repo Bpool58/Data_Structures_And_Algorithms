@@ -11,7 +11,7 @@ node_d = Node(95)
 node_e = Node(42)
 node_f = Node(17)
 
-num_list.append(node_b)   # Add 99,
+num_list.append(node_b)   # Add 99,,
 num_list.append(node_c)   # Add 44, make the tail
 num_list.append(node_e)   # Add 42, make the tail
 
