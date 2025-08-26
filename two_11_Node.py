@@ -14,6 +14,6 @@ class Node:
             next: Reference to the next node (None by default)
             prev: Reference to the previous node (None by default)
         """
-        self.data = initial_data    # Store the actual data in the node
+        self.data = initial_data    # Store the actual data in the node.
         self.next = None            # Reference to the next node (initially None)
         self.prev = None            # Reference to the previous node (initially None)
