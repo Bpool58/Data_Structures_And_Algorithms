@@ -4,7 +4,7 @@ class Node:
     """
     def __init__(self, initial_data):
         """
-        Initialize a new node with data and null references to next and previous nodes.
+        Initialize a new node with data and null references to next and previous nodes..
         
         Args:
             initial_data: The data to be stored in the node (can be any data type)
