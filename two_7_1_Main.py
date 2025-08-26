@@ -32,7 +32,7 @@ num_list.remove_after(node_e)   # Remove the tail (17)
 num_list.remove_after(None)     # Remove the head (66)
 
 
-# Output final list
+# Output final list.
 print('List after removing nodes:', end=' ')
 node = num_list.head
 while node != None:
