@@ -1,4 +1,4 @@
-from ArrayQueue import ArrayQueue
+from three_six_ArrayQuene import ArrayQueue
 
 # Make two queues, one bounded to 4 items and the other bounded
 boundedQueue = ArrayQueue(4)
@@ -10,7 +10,7 @@ for i in range(1, 9):
     boundedQueue.enqueue(i)
     unboundedQueue.enqueue(i)
 
-# Dequeue two items from each queue
+# Dequeue two items from each queue...
 print("Dequeuing twice")
 for i in range(2):
     print(f"  Dequeued {boundedQueue.dequeue()}", end="")
