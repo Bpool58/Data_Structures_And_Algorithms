@@ -29,5 +29,5 @@ def resize(self):
     self.queue_list = new_list
     
     # Reset the front index to 0 since we've linearized the data
-    # All elements are now stored starting from index 0
+    # All elements are now stored starting from index 0.
     self.front_index = 0
